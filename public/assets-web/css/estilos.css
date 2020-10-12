@@ -1,0 +1,1235 @@
+@font-face{
+    font-family: AvenirMedium;
+    src : url('../font/Avenir-Medium.ttf')
+}
+@font-face{
+    font-family: AvenirHeavy;
+    src : url('../font/Avenir Heavy.ttf')
+}
+@font-face{
+    font-family: AvenirBook;
+    src : url('../font/Avenir Book.ttf')
+}
+@font-face{
+    font-family: AvenirBlack;
+    src : url('../font/Avenir-Black.otf')
+}
+@font-face{
+    font-family: Avenirlight;
+    src : url('../font/avenirltstd-light.otf')
+}
+@font-face{
+    font-family: AvenirLightOblique;
+    src : url('../font/Avenir-LightOblique.ttf')
+}
+@font-face{
+    font-family: Avenirheavyoblique;
+    src : url('../font/avenir-lt-std-85-heavy-oblique.otf')
+}
+@font-face{
+    font-family: Avenirroman;
+    src : url('../font/Avenir Roman.otf')
+}
+@font-face{
+    font-family: HelveticaNeueRegular;
+    src : url('../font/HelveticaNeue-Regular.ttf')
+}
+@font-face{
+    font-family: HelveticaNeuebold;
+    src : url('../font/helvetica-neue-bold.ttf')
+}
+@font-face{
+    font-family: HelveticaNeueLight;
+    src : url('../font/HelveticaNeue Light.ttf')
+}
+@font-face{
+    font-family: FedraSerifProBook;
+    src : url('../font/FedraSerifPro B Book.otf')
+}
+@font-face{
+    font-family: Chancery;
+    src : url('../font/Apple Chancery 100.ttf')
+}
+@font-face{
+    font-family: MontserratRegular;
+    src : url('../font/Montserrat-Regular.ttf')
+}
+@font-face{
+    font-family: CardoRegular;
+    src : url('../font/Cardo-Regular.ttf')
+}
+button:focus,input:focus,textarea:focus,.btn:focus,select:focus
+{
+  box-shadow: none;
+  outline:none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] { -moz-appearance:textfield; }
+.div_nav
+{
+	width: 100%;
+	height: 100%;
+}
+.logo_nav
+{
+	width: 30%;
+	position: absolute;
+	z-index: 1;
+	left: 35%;
+	top: 30px;
+}
+.img_nav
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.sec_nav
+{
+	height: 60px;
+}
+.btn_menu
+{
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	background-color: transparent;
+	color: #fff;
+	font-size: 25px;
+}
+.btn_menu:hover
+{
+	color: #fff;
+}
+.img_cover
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.div_uno_img
+{
+	width: 100%;
+	position: relative;
+	-webkit-transition: -webkit-transform 0.50s;
+  	transition: transform 0.50s;
+ 	-webkit-transform: translate3d(0,0,0);
+  	transform: translate3d(0,0,0);
+  	box-shadow:  0px 3px 6px #00000029;
+  	height: 100%;
+}
+.div_iguales_seis
+{
+	width: 50%;
+	height: 31vh;
+	overflow: hidden;
+}
+.h6_blnaco_absolute
+{
+	color: #fff;
+	text-shadow: 0px 3px 6px #00000029;
+	font-family: AvenirBlack;
+	position: absolute;
+	bottom: 10px;
+	z-index: 1;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+}
+.div_uno_descripcion
+{
+	width: 100%;
+	transition: transform 0.50s;
+ 	-webkit-transform: translate3d(0,0,0);
+  	transform: translate3d(0,0,0);
+  	height: 160px;
+}
+.titulo_plomo
+{
+	font-family: AvenirBlack;
+	font-size: 18px;
+	color: #535353;
+}
+.p_descripcion_tres
+{
+	color: #ACACAC;
+	font-family: AvenirBook;
+	font-size: 14px;
+	display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 50px;
+    line-height: 1.2;
+}
+.link_ver
+{
+	color: #ACACAC;
+	font-family: AvenirBook;
+	font-size: 14px;
+}
+.link_ver:hover
+{
+	color: #ACACAC;
+}
+.div_seis
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.h6_especial
+{
+	color: #535353;
+	font-family: MontserratRegular;
+	font-size: 30px;
+}
+.h6_amarrillo
+{
+	color: #D7B46A;
+	font-family: CardoRegular;
+	font-size: 23px;
+}
+.img_licuadora
+{
+	width: 100%;
+}
+.p_descripcion_book_ac
+{
+	font-family: AvenirBook;
+	color: #ACACAC;
+	font-size: 18px;
+	line-height: 1.3;
+}
+.fondo_home_uno
+{
+	background-color: #F5F5F5;
+	height: 64vh;
+}
+.p_amarrillo
+{
+	color: #D7B46A;
+	font-family: AvenirMedium;
+	font-size: 16px;
+}
+.img_cafe_gran
+{
+	width: 90%;
+}
+.btn_productos
+{
+	color: #6F6F6F;
+	font-family: HelveticaNeueLight;
+	border: 1px solid #CECECE;
+	border-radius: 33px;
+	background-color: #fff;
+}
+.h6_atri
+{
+	color: #535353;
+	font-family: AvenirMedium;
+	font-size: 26px;
+}
+.div_img_atri
+{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 100px;
+}
+.img_atri
+{
+	width: 100%;
+	height: 100%;
+	object-fit: scale-down;
+}
+.secc_rigurosa
+{
+	background-image: url('../img/Grupo23.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img_payadores
+{
+	width: 100%;
+	box-shadow: 0px 3px 6px #00000029;
+}
+.h6_desta
+{
+	font-family: AvenirMedium;
+	color: #535353;
+	font-size: 20px;
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 45px;
+}
+.img_des
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.div_img_destacados
+{
+	width: 100%;
+	height: 182px;
+	overflow: hidden;
+}
+.div_img_destacados img {
+  transition: transform 1s, filter 2s ease-in-out;
+  transform: scale(1.2);
+}
+
+/* The Transformation */
+.div_img_destacados:hover img {
+  filter: blur(0);
+  transform: scale(1);
+}
+.p_cantidad_cuatro
+{
+	display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 70px;
+}
+.footer_fondo
+{
+	background-image: url('../img/Enmascarar-grupo1.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+.link_footer
+{
+	color: #fff;
+	font-family: AvenirMedium;
+	font-size: 14px;
+}
+.link_footer:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+.p_footer_todos
+{
+	color: #E2E2E2;
+	text-shadow: 0px 3px 6px #00000029;
+	font-family: AvenirLightOblique;
+}
+.link_pro
+{
+	color: #E2E2E2;
+	text-shadow: 0px 3px 6px #00000029;
+	font-family: Avenirheavyoblique;
+}
+.link_pro:hover
+{
+	color: #E2E2E2;
+	text-decoration: none;
+}
+.con_footer
+{
+	height: 100%;
+}
+.row_footer
+{
+	height: 100%;
+	align-content: space-between;
+}
+.bajar_logo_footer
+{
+	margin-top: 48px;
+}
+.bajar_list_footer
+{
+	margin-top: 48px;
+}
+.list_footer
+{
+	width: 100%;
+	text-align: center;
+}
+.img_fondo
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.div_fondo
+{
+	width: 100%;
+	height: 100%;
+}
+.sec_fondo
+{
+	height: 250px;
+}
+.h1_blanco
+{
+	color: #fff;
+	font-family: HelveticaNeuebold;
+	position: absolute;
+	z-index: 1;
+	font-size: 30px;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	text-shadow: 0px 3px 6px #00000029;
+}
+.sec_fondo_produc
+{
+	background-image: url('../img/manchas.png');
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img_produc
+{
+	width: 100%;
+	height: 100%;
+	object-fit: scale-down;
+}
+.div_produc
+{
+	width: 100%;
+	height: 300px;
+}
+.div_titulo_produc
+{
+	border-top: 1px solid #707070;
+	border-bottom: 1px solid #707070;
+}
+.btn_list_proc
+{
+	background-color: #D7B46A;
+	border-radius: 37px;
+	color: #FFFFFF;
+	font-family: HelveticaNeueLight;;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px
+}
+.btn_list_proc:hover
+{
+	color: #FFFFFF;
+}
+.div_producto_genral
+{
+	width: 100%;
+	padding: 0px 23px;
+	margin-bottom: 80px;
+}
+.p_cantidad_produ_dos
+{
+    height: 52px;
+    overflow: hidden;
+    text-align: center;
+}
+.div_cino_imagenes
+{
+	width: 20%;
+	overflow: hidden;
+}
+.div_cino_imagenes img {
+  transition: transform .5s ease;
+}
+.div_cino_imagenes:hover img {
+  transform: scale(1.3);
+}
+.icon_negro
+{
+	color: #000000;
+}
+.colo_plomo
+{
+	color: #868686;
+}
+.icon_nosotros
+{
+	font-size: 18px;
+}
+.container_padding
+{
+	padding: 0px 10px;
+}
+.padding_riht
+{
+	padding-right: 0px;
+}
+.btn_list_recetario
+{
+	background-color: #D7B46A;
+	border-radius: 13px;
+	color: #fff;
+	font-family: AvenirMedium;
+	width: 70%;
+	margin-top: 10px;
+}
+.btn_list_recetario:hover
+{
+	color: #fff;
+}
+.div_recetario
+{
+	width: 100%;
+	height: 228px;
+	overflow: hidden;
+}
+.div_recetario img {
+  transition: transform 1s, filter 2s ease-in-out;
+  transform: scale(1.2);
+}
+
+/* The Transformation */
+.div_recetario:hover img {
+  filter: blur(0);
+  transform: scale(1);
+}
+.div_recetario_genral
+{
+	width: 100%;
+	padding: 0px 20px;
+}
+.h6_recetario
+{
+	color: #989898;
+	font-family: HelveticaNeuebold;
+	font-size: 20px;
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 50px;
+}
+.div_titulo_recetario
+{
+	border-bottom: 1px solid #707070;
+	margin-top: 8px;
+}
+.p_cantidad_rece_tres
+{
+	display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 70px;
+}
+.div_img_blog
+{
+	width: 100%;
+	overflow: hidden;
+}
+.div_img_blog img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.div_img_blog:hover img {
+  transform: scale(1.5);
+}
+.p_blog_pequq
+{
+	color: #ACACAC;
+	font-family: AvenirBook;
+	font-size: 14px;
+}
+.div_titulo_blog
+{
+	border-bottom: 1px solid #707070;
+}
+.btn_blog
+{
+	background-color: #D7B46A;
+	color: #fff;
+	border-radius: 13px;
+	font-family: AvenirMedium;
+	width: 35%;
+}
+.btn_blog:hover
+{
+	color: #fff;
+}
+.p_cantidad_cuatro_blog
+{
+	display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 94px;
+}
+.div_linea
+{
+	width: 100%;
+	height: 1px;
+	background-color: #707070;
+}
+.input_contac
+{
+	width: 100%;
+	border: 1px solid #A8A8A8;
+	border-radius: 7px;
+	background-color: #fff;
+	color: #ACACAC;
+	font-family: AvenirBook;
+}
+.input_contac::placeholder, 
+.textarea_contac::placeholder
+{
+	font-family: AvenirBook;
+	color: #ACACAC;
+}
+.select_contac
+{
+	background-color: #fff;
+	color: #ACACAC;
+	font-family: AvenirBook;
+	border-radius: 7px;
+	border: 1px solid #A8A8A8;
+	width: 100%;
+}
+.textarea_contac
+{
+	background-color: #fff;
+	color: #ACACAC;
+	font-family: AvenirBook;
+	border-radius: 7px;
+	border: 1px solid #A8A8A8;
+	width: 100%;
+	resize: none;
+	height: 130px;
+}
+.btn_contac
+{
+	background-color: #D7B46A;
+	border-radius: 13px;
+	color: #fff;
+	font-family: AvenirMedium;
+	width: 40%;
+}
+.bajar_col_contac
+{
+	margin-top: 100px;
+}
+.div_boder_bottom_detalle
+{
+	border-bottom: 1px solid #707070;
+}
+.div_img_detalle
+{
+	width: 100%;
+	height: 188px;
+}
+.div_detalle
+{
+	width: 100%;
+}
+.link_productos
+{
+	color: #ACACAC;
+	font-family: AvenirBlack;
+	margin-top: 30px;
+}
+.link_productos:hover
+{
+	color: #ACACAC;
+	text-decoration: none;
+}
+.p_black_ac
+{
+	color: #ACACAC;
+	font-family: AvenirBlack;
+}
+.div_ingre
+{
+	width: 100%;
+}
+.div_img
+{
+	width: 90%;
+}
+.div_img_pastel
+{
+	width: 100%;
+	height: 187px;
+}
+.div_producto
+{
+	width: 100%;
+}
+.div_cuatro_iguales
+{
+	width: 50%;
+	border-bottom: 1px solid #707070;
+}
+.boder_complaeto_pro
+{
+	border: 1px solid #707070;
+}
+.border_left_produc
+{
+	border-left: 1px solid #707070;
+}
+.border_left_right_produc
+{
+	border-left: 1px solid #707070;
+	border-right: 1px solid #707070;
+}
+.border_right_celular
+{
+	border-right: 1px solid #707070;
+}
+.img_icon_cafe
+{
+	object-fit: scale-down;
+	width: 25px;
+	height: 40px;
+}
+.p_hel_bold_pro
+{
+	color: #989898;
+	font-family: HelveticaNeuebold;
+}
+.divline_pro
+{
+	line-height: 1.2;
+}
+.div_img_detalle_produc
+{
+	width: 100%;
+    height: 175px;
+}
+/*slider*/
+.carousel-indicators 
+{
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    list-style: none;
+}
+.carousel-indicators .active 
+{
+
+    background-color: #6F6F6F;
+}
+.carousel-indicators li 
+{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #CECECE;
+    background-color: #CECECE;
+    border-radius: 50%;
+}
+/* fin slider*/
+.btn_slider
+{
+	background-color: #D7B46A;
+	border-radius: 34px;
+	color: #fff;
+	font-family: HelveticaNeuebold;
+	width: 50%;
+	margin-top: 90px;
+	margin-left: 25%;
+	padding: 13px 12px;
+}
+.btn_slider:hover
+{
+	color: #fff;
+}
+.padding_lef_rigt
+{
+	padding: 0px 0px;
+}
+.carousel-item
+{
+	height: 470px;
+}
+.sec_navabsolute
+{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	height: 100vh;
+	display: none;
+	z-index: 99999;
+	background-color: #fff;
+}
+.btn_close
+{
+	background-color: transparent;
+	color: #535353;
+	position: absolute;
+	right: 20px;
+	top: 0;
+	z-index: 99999999;
+	font-size: 30px
+}
+.img_logo_nav
+{
+	width: 55%;
+	margin-top: 80px;
+}
+.link_mnu_nav
+{
+	color: #535353;
+	font-family: AvenirMedium;
+	font-size: 22px;
+}
+.link_mnu_nav:hover
+{
+	color: #535353;
+	text-decoration: none;
+}
+.linea_menu
+{
+	width: 100%;
+	height: 1px;
+	background-color: #d6d0d0;
+}
+.padding_left_rigth_nav
+{
+	padding: 0px 40px;
+}
+.bajar_seccion_todos
+{
+	margin-top: 40px;
+}
+.img_nosotros
+{
+	width: 100%;
+	height: 100%;
+	object-fit: scale-down;
+}
+.div_icon_nosotros
+{
+	height: 100px;
+}
+.div_riguro
+{
+	overflow: hidden;
+}
+.div_riguro img {
+  transition: transform 1s, filter 2s ease-in-out;
+  transform: scale(1.2);
+}
+
+/* The Transformation */
+.div_riguro:hover img {
+  filter: blur(0);
+  transform: scale(1);
+}
+@media (min-width: 640px)
+{
+	.div_iguales_seis:hover .div_uno_descripcion
+	{
+		transform: translate3d(0,-83%,0);
+	}
+	.div_iguales_seis:hover .div_uno_img
+	{
+		transform: translate3d(0,-28%,0);
+	}
+	.div_iguales_seis:hover .div_uno_img .h6_blnaco_absolute
+	{
+		z-index: -1;
+	}
+	.bajar_seccion_todos
+	{
+		margin-top: 100px;
+	}
+	.p_cantidad_produ_dos
+	{
+	    height: 68px;
+	}
+	.btn_close
+	{
+	    top: 0;
+	    font-size: 25px;
+	}
+	.link_mnu_nav
+	{
+		font-size: 16px;
+	}
+	.padding_left_rigth_nav 
+	{
+    	padding: 0px 70px;
+	}
+	.img_logo_nav 
+	{
+    	width: 30%;
+    	margin-top: 15px;
+	}
+	.padding_lef_rigt 
+	{
+	    padding: 0px 70px;
+	}
+	.div_img_pastel 
+	{
+	    height: 230px;
+	}
+	.div_img 
+	{
+    	width: 70%;
+	}
+	.div_detalle 
+	{
+    	width: 50%;
+	}
+	.div_img_detalle 
+	{
+    	height: 150px;
+	}
+	.div_recetario_genral
+	{
+		width: 50%;	
+    	padding: 0px 20px;
+	}
+	.div_recetario
+	{
+		height: 170px;
+	}
+	.h1_blanco
+	{
+		font-size: 60px;
+	}
+	.div_producto_genral
+	{
+		width: 50%;
+    	padding: 0px 18px;
+	}
+	.logo_nav
+	{
+		width: 20%;
+		left: 40%;
+		top: 25px;
+	}
+	.list_footer
+	{
+		width: auto;
+		text-align: left;
+	}
+
+	.h6_especial
+	{
+	    font-size: 35px;
+	}
+	.bajar_logo_footer
+	{
+		margin-top: 5px;
+	}
+	.div_iguales_seis
+	{
+	    width: 33.3%;
+    	height: 150vh;
+	}
+	.fondo_home_uno
+	{
+	    height: 131vh;
+	}
+	.footer_fondo
+	{
+	    height: 83vh;
+	}
+	.container_padding 
+	{
+    	padding: 0px 30px;
+	}
+	.div_titulo_recetario
+	{
+		margin-top: 8px;
+	}
+	.div_cuatro_iguales
+	{
+		width: 50%;
+	}
+	.div_img_detalle_produc 
+	{
+	    height: 146px;
+	}
+}
+@media (min-width: 768px)
+{
+	.btn_close
+	{
+	    top: 20px;
+	    font-size: 30px;
+	}
+	.link_mnu_nav
+	{
+		font-size: 22px;
+	}
+	.img_logo_nav 
+	{
+	    width: 50%;
+	    margin-top: 80px;
+	}
+	.padding_left_rigth_nav 
+	{
+    	padding: 0px 160px;
+	}
+	.div_img_detalle_produc
+	{
+		height: 200px;
+	}
+	.div_ingre
+	{
+		width: 50%;
+	}
+	.div_img_pastel 
+	{
+	    height: 225px;
+	}
+	.div_img 
+	{
+    	width: 50%;
+	}
+	.div_img_detalle 
+	{
+    	height: 210px;
+	}
+	.div_producto_genral
+	{
+    	padding: 0px 61px;
+	}
+	.logo_nav
+	{
+		width: 16%;
+		left: 42%;
+		top: 24px;
+	}
+	.bajar_logo_footer
+	{
+		margin-top: 20px;
+	}
+	.fondo_home_uno
+	{
+	    height: 52vh;
+	}
+	.div_iguales_seis
+	{
+		width: 33.3%;
+	    height: 68vh;
+	}
+	.div_iguales_seis:hover .div_uno_descripcion
+	{
+		transform: translate3d(0,-90%,0);
+	}
+	.footer_fondo
+	{
+		height: 35vh
+	}
+	.container_padding 
+	{
+    	padding: 0px 30px;
+	}
+	.div_recetario_genral 
+	{
+	    width: 33.3%;
+	    padding: 0px 20px;
+	}
+	.div_recetario 
+	{
+	    height: 150px;
+	}
+	.div_cuatro_iguales
+	{
+		width: 25%;
+	}
+}
+@media (min-width: 1024px)
+{
+	.img_logo_nav 
+	{
+	    width: 28%;
+	}
+	.padding_left_rigth_nav
+	{
+	    padding: 0px 270px;
+	}
+	.div_cuatro_iguales
+	{
+		width: 50%;
+	}
+	.div_img_detalle_produc 
+	{
+    	height: 130px;
+	}
+	.div_producto 
+	{
+    	width: 50%;
+	}
+	.div_img_pastel 
+	{
+	    height: 218px;
+	}
+	.div_img 
+	{
+    	width: 35%;
+	}
+	.div_img_detalle 
+	{
+    	height: 290px;
+	}
+	.div_titulo_recetario
+	{
+		margin-top: 15px;
+	}
+	.container_padding {
+	    padding: 0px 50px;
+	}
+	.logo_nav
+	{
+		width: 15%;
+		left: 42.5%;
+		top: 21px;
+	}
+	.bajar_logo_footer
+	{
+		margin-top: 20px;
+	}
+	.fondo_home_uno
+	{
+		height: 45vh;
+	}
+	.div_iguales_seis:hover .div_uno_img
+	{
+		transform: translate3d(0,-18%,0);
+	}
+	.div_producto_genral
+	{
+		padding: 0px 30px;
+		width: 33.3%;
+	}
+	.padding_riht 
+	{
+    	padding-right: 48px;
+	}
+	.div_recetario_genral 
+	{
+	    padding: 0px 30px;
+	}
+	.div_recetario 
+	{
+	    height: 195px;
+	}
+}
+@media (min-width: 1200px)
+{
+	.border_right_celular
+	{
+		border-right: 0px;
+	}
+	.div_cuatro_iguales
+	{
+		width: 25%;
+	}
+	.div_img_detalle_produc 
+	{
+    	height: 160px;
+	}
+	.div_img_pastel 
+	{
+	    height: 234px;
+	}
+	.div_img 
+	{
+    	width: 33%;
+	}
+	.div_img_detalle 
+	{
+    	height: 325px;
+	}
+	.div_img_blog
+	{
+		height: 239px;
+	}
+	.div_recetario 
+	{
+	    height: 238px;
+	}
+	.div_producto_genral
+	{
+		padding: 0px 63px;
+	}
+	.logo_nav
+	{
+		width: 12%;
+		left: 44%;
+		top: 18px;
+	}
+	.div_iguales_seis:hover .div_uno_descripcion
+	{
+		transform: translate3d(0,-83%,0);
+	}
+	.fondo_home_uno
+	{
+		height: 113vh;
+	}
+	.bajar_logo_footer
+	{
+		margin-top: 40px;
+	}
+	.footer_fondo
+	{
+		height: 75vh;
+	}
+	.div_iguales_seis
+	{
+		width: 16.663%;
+    	height: 92.2vh;
+	}
+	.div_iguales_seis:hover .div_uno_img
+	{
+		transform: translate3d(0,-24%,0);
+	}
+	.container_padding 
+	{
+    	padding: 0px 90px;
+	}
+}
+@media (min-width: 1300px)
+{
+	.fondo_home_uno
+	{
+		height: 105vh;
+	}
+	.bajar_logo_footer
+	{
+		margin-top: 48px;
+	}
+	.footer_fondo
+	{
+		height: 95vh;
+	}
+	.div_iguales_seis:hover .div_uno_img
+	{
+		transform: translate3d(0,-25%,0);
+	}
+	.container_padding 
+	{
+    	padding: 0px 120px;
+	}
+	.padding_riht
+	{
+		padding-right: 60px;
+	}
+	.div_producto_genral 
+	{
+    	padding: 0px 60px;
+	}
+}
